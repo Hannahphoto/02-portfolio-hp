@@ -10,7 +10,7 @@ So that I an review samples of their work and assess whether they're a good cand
 GIVEN i need to sample a potenital employee's previous work
 WHEN I load their portfolio
 THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them.
-WHEN I clicl on the links in the navigation
+WHEN I click on the links in the navigation
 THEN the UI scrolls to the corresponding section.
 WHEN I am presented with the developer's first application
 THEN that application's image should be larder in size than the others.
