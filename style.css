@@ -22,9 +22,12 @@ ul{
 
 li{
  display: inline;
+ flex-direction: row;
+ flex-wrap: wrap;
  font-style: none;
- padding: 0px 10px;
+ padding: 0px 5px;
  margin-right: 20px;
+ margin-left: 40px;
 }
 
 h1{
@@ -32,7 +35,7 @@ h1{
 }
 
 img {
-    max-width: 1590px;
+    max-width:1573px;
     opacity: 50%; 
     text-overflow: initial;
 }
@@ -48,8 +51,8 @@ li:hover{
 }
 
 header{
-    font-size: larger;
-    background-color: transparent;
+    /* font-size: larger; */
+    /* background-color: transparent; */
 }
 
 .textimage{
@@ -68,13 +71,15 @@ header{
 }
 
 .content {
-    display: inline-block;
+    /* display: inline-block; */
     margin-left: 300px;
-    display: flex;
+    /* flex-wrap: wrap; */
     width: 75%;
     margin-top: 0px;
-    text-decoration-color: black;
-       
+    /* text-decoration-color: black; */
+    /* display: flexbox; */
+    /* flex-wrap: wrap; */
+/*         */
 }
 
 .aside-about-me {
@@ -94,7 +99,7 @@ header{
 .aside-my-work {
     /* margin-left: 100px; */
     margin-top: 0px;
-    height: 500px;
+    height: 600px;
     padding-right: 10px;
     border-right: 5px solid black;
     font-size: 40px;
@@ -102,6 +107,7 @@ header{
     text-align: right;
     padding-top: 0px;
     margin-bottom: 30px;
+    margin-left: 50px;
    
 }
 
@@ -119,7 +125,7 @@ header{
    
 }
 
-.about-me{
+#about-me{
     margin-top: 0px;
     text-align: left;
     height: 115px;
@@ -127,20 +133,109 @@ header{
     
 }
 
+section{
+    display: flexbox;
+    flex-wrap: wrap;
+
+}
+
 .my-work{
-    display: flex;
+    display: inline-block;
+    /* flex-wrap: wrap; */
     margin-top: 0px;
     text-align: left;
-    height: 500px;
+    height: 300px;
     margin-bottom: 30px;
+    border: 7px solid rgb(17, 82, 11);
+    width: 500px;
+    /* margin-right: 20px; */
+    min-width: 500px;
+    margin-left: 50px;
+    background-image: url("images/cheatsheet.png"); 
+    object-fit: scale-down;
+    background-repeat: no-repeat;
+    background-position: middle right;
+    /* opacity: 70%; */
+    font-size: 30px;
+
+}
+
+.my-miniproject {
+    margin-right: 50px;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 0px;
+    height: 300px;
+    margin-bottom: 30px;
+    border: 7px solid rgb(17, 82, 11);
+    width: 500px;
+    min-width: 500px;
+    background-image: url("images/refactor.png");
+    background-repeat: no-repeat;
+    /* opacity: 70%; */
+    font-size: 30px;
+
+
+}
+
+.project {
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: 50px;
+    border: 7px solid rgb(17, 82, 11);
+    background-color: rgb(55, 82, 82);
+    /* opacity: 70%; */
+    font-size: 30px;
+}
+
+.project-other {
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: 50px;
+    border: 7px solid rgb(17, 82, 11);
+    background-color: rgb(45, 45, 77);
+    /* opacity: 70%; */
+    font-size: 30px;
     
 }
 
-/* .contact-me{ */
-    /* display: flex; */
-    /* margin-top: 15px; */
-    /* text-align: left; */
-    /* height: 50px; */
-    /* margin-bottom: 30px; */
-   /* border: 5px solid black; */
-/* } */
+.otherwork {
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 30px;
+    width: 500px;
+    margin-left: 50px;
+    border: 7px solid rgb(17, 82, 11);
+    background-color: rgb(99, 67, 67);
+    /* opacity: 70%; */
+    font-size: 30px;
+    
+}
+
+.morework{
+    display: inline-block;
+    height: 100px;
+    margin-bottom: 50px;
+    width: 500px;
+    margin-left: 50px;
+    border: 7px solid rgb(17, 82, 11);
+    background-color: rgb(96, 68, 93);
+    /* opacity: 70%; */
+    font-size: 30px;
+
+}
+
+.contactme{
+    text-align: left;
+    margin-top: 0px;
+    font-style: black;
+}
+
+.my-work:hover{
+    background-color: yellow;
+}
+
