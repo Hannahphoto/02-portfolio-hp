@@ -44,7 +44,7 @@ p{
 }
 
 li:hover{
-    text-decoration-style: rgb(112, 6, 6);
+    color: red;
 }
 
 header{
@@ -68,6 +68,7 @@ header{
 }
 
 .content {
+    display: inline-block;
     margin-left: 300px;
     display: flex;
     width: 75%;
@@ -79,7 +80,7 @@ header{
 .aside-about-me {
     /* margin-left: 100px; */
     margin-top: 0px;
-    height: 200px;
+    height: 115px;
     padding-right: 10px;
     border-right: 5px solid black;
     font-size: 40px;
@@ -119,20 +120,27 @@ header{
 }
 
 .about-me{
-    font-style:none;
     margin-top: 0px;
-    margin-bottom: 50px;
     text-align: left;
-    height: fit-content;
+    height: 115px;
     margin-bottom: 30px;
-
-
+    
 }
 
 .my-work{
-
+    display: flex;
+    margin-top: 0px;
+    text-align: left;
+    height: 500px;
+    margin-bottom: 30px;
+    
 }
 
-.contact-me{
-
-}
+/* .contact-me{ */
+    /* display: flex; */
+    /* margin-top: 15px; */
+    /* text-align: left; */
+    /* height: 50px; */
+    /* margin-bottom: 30px; */
+   /* border: 5px solid black; */
+/* } */
