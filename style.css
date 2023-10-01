@@ -6,50 +6,133 @@
 
 nav{
     background-color: black;
-    color: white;
-    font-weight: 100;
-    height: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    height: 80px;
     text-indent: 20px;
-    text-align: justify -20px;
+    /* text-align: justify -20px; */
     padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 ul{
     text-align: right;
+    font-size: 20px;
 }
 
 li{
  display: inline;
  font-style: none;
- padding: 0px 20px;
+ padding: 0px 10px;
+ margin-right: 20px;
 }
 
 h1{
-    font-size: xx-large;
-    
-
-}
-
-header {
-    display: inline-block;
-    background-color: rgb(37, 11, 37);
-    height: 50px;
-    width: 1580px;
-    opacity: 70%;
-    text-overflow:initial;
-    text-align: center;
-    color: whitesmoke;
-    padding-top:20px;
-    bord
-
-}
-
-main{
-
+    font-size: 45px;
 }
 
 img {
-    max-width: 1580px;
-    opacity: 50%;
-    
+    max-width: 1590px;
+    opacity: 50%; 
+    text-overflow: initial;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+li:hover{
+    text-decoration-style: rgb(112, 6, 6);
+}
+
+header{
+    font-size: larger;
+    background-color: transparent;
+}
+
+.textimage{
+    position: absolute;
+    /* padding-bottom: 50px; */
+    /* padding-right: 60px; */
+    color: black;
+}
+
+.leftcolumn{
+    float: left;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(93, 13, 167);
+}
+
+.content {
+    margin-left: 300px;
+    display: flex;
+    width: 75%;
+    margin-top: 0px;
+    text-decoration-color: black;
+       
+}
+
+.aside-about-me {
+    /* margin-left: 100px; */
+    margin-top: 0px;
+    height: 200px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    font-size: 40px;
+    text-indent: 20px;
+    text-align: right;
+    padding-top: 0px;
+    margin-bottom: 30px;
+   
+}
+
+.aside-my-work {
+    /* margin-left: 100px; */
+    margin-top: 0px;
+    height: 500px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    font-size: 40px;
+    text-indent: 20px;
+    text-align: right;
+    padding-top: 0px;
+    margin-bottom: 30px;
+   
+}
+
+.aside-contact-me {
+    /* margin-left: 100px; */
+    margin-top: 0px;
+    height: 100px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+    font-size: 40px;
+    text-indent: 20px;
+    text-align: right;
+    padding-top: 0px;
+    margin-bottom: 30px;
+   
+}
+
+.about-me{
+    font-style:none;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-align: left;
+    height: fit-content;
+    margin-bottom: 30px;
+
+
+}
+
+.my-work{
+
+}
+
+.contact-me{
+
 }
