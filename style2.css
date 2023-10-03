@@ -91,11 +91,11 @@ h2 {
 .aside-my-work {
     /* margin-right: 1300px; */
     float: left;
-    margin-top: 30px;
+    margin-top: 55px;
     height: 770px;
     padding-right: 10px;
     border-right: 5px solid black;
-    font-size: 40px;
+    font-size: 50px;
     text-indent: 20%;
     text-align: right;
     padding-top: 0px;
@@ -105,7 +105,7 @@ h2 {
 
 .aside-contact-me {
     float: left;
-    margin-top: 0px;
+    margin-top: 560px;
     height: 50px;
     padding-right: 10px;
     border-right: 5px solid black;
@@ -138,7 +138,7 @@ section{
     justify-content: flex-end;
     align-items: end;
     margin-top: 3%;
-    height: 500px;
+    height: 700px;
     min-height: auto;
     margin-bottom: 30px;
     border: 7px solid black;
@@ -265,6 +265,10 @@ h4{
 
 #li:hover{
     color: red;
+}
+
+#ul{
+    color: white;
 }
 
 #div{
@@ -463,13 +467,7 @@ min-width: 10%;
         justify-content: flex-end;
         flex-direction: column;
     }
-    }
-    /* #about-me { */
-        /* font-size: smaller;  */
-        /* } */
-    ul{
-        display: none;
-    }
+    
     div {
     justify-content: center;
     }
@@ -477,11 +475,11 @@ min-width: 10%;
         max-width: 100%;
     }
     .aside-contact-me{
-        margin-top: 425px;
+        margin-top: 225px;
         font-size: 20px;
     }
     #my-work{
-        max-height: 300px;
+        max-height: 500px;
     }
     .my-miniproject{
         max-height: 300px;
@@ -493,7 +491,7 @@ min-width: 10%;
         justify-content: center;
     }
     .aside-contact-me{
-        margin: top 350px;
+        margin: top 450px;
         justify-content: center;
     }
 }
