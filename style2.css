@@ -21,6 +21,8 @@ h1{
 ul{
     text-align: right;
     font-size: 20px;
+    color: white;
+   
     
 }
 
@@ -30,6 +32,7 @@ li{
     justify-content: space-evenly;
     font-style: none;
     margin-right: 30px;
+    color: white;
    }
 
 a{
@@ -74,7 +77,7 @@ h2 {
 .aside-about-me {
     float:left;
     /* margin-top: 10px; */
-    height: 220px;
+    height: 325px;
     padding-right: 10px;
     border-right: 5px solid black;
     font-size: 40px;
@@ -89,14 +92,14 @@ h2 {
     /* margin-right: 1300px; */
     float: left;
     margin-top: 30px;
-    height: 1090px;
+    height: 770px;
     padding-right: 10px;
     border-right: 5px solid black;
     font-size: 40px;
     text-indent: 20%;
     text-align: right;
     padding-top: 0px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     width: 100%;
 }
 
@@ -123,7 +126,7 @@ section{
 #about-me{
     display: flex;
     flex-wrap: wrap;
-    font-size: xx-large;
+    font-size: 40px;
     margin-right: 1%;
     margin-top: 1%;
 }
@@ -135,7 +138,7 @@ section{
     justify-content: flex-end;
     align-items: end;
     margin-top: 3%;
-    height: 450px;
+    height: 500px;
     min-height: auto;
     margin-bottom: 30px;
     border: 7px solid black;
@@ -407,13 +410,6 @@ min-width: 10%;
     }
 }
 
-/* @media screen and (max-width:950px) { */
-    /* .aside-contact-me{ */
-        /* margin-top: 500px; */
-    /* } */
-/*      */
-/* } */
-
 @media screen and (max-width:784px) {
     .section {
         justify-content: center;
@@ -468,9 +464,9 @@ min-width: 10%;
         flex-direction: column;
     }
     }
-    #about-me {
-        font-size: smaller; 
-        }
+    /* #about-me { */
+        /* font-size: smaller;  */
+        /* } */
     ul{
         display: none;
     }
