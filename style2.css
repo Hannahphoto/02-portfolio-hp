@@ -91,7 +91,7 @@ h2 {
 .aside-my-work {
     /* margin-right: 1300px; */
     float: left;
-    margin-top: 55px;
+    margin-top: 25px;
     height: 770px;
     padding-right: 10px;
     border-right: 5px solid black;
@@ -105,7 +105,7 @@ h2 {
 
 .aside-contact-me {
     float: left;
-    margin-top: 560px;
+    margin-top: 400px;
     height: 50px;
     padding-right: 10px;
     border-right: 5px solid black;
@@ -138,7 +138,7 @@ section{
     justify-content: flex-end;
     align-items: end;
     margin-top: 3%;
-    height: 700px;
+    height: 500px;
     min-height: auto;
     margin-bottom: 30px;
     border: 7px solid black;
@@ -363,19 +363,18 @@ min-width: 10%;
    .aside-contact-me{
         max-width: 100%;
         font-size: 25px;
-        max-height: 450px;
+        margin-top: 750px;
         border: none;
    }
-   .aside-contact-me{
-    margin-top: 650px;
-}
+   
+
 }
 @media screen and (max-width:1190px){
     .aside-my-work{
         margin-top: 200px;
     }
     .aside-contact-me{
-        margin-top: 450px;
+        margin-top: 600px;
     }
 }
 @media screen and (max-width: 1023px){
@@ -410,7 +409,7 @@ min-width: 10%;
         max-width: 47%;
     }
     .aside-contact-me{
-        margin-top: 500px;
+        margin-top: 700px;
     }
 }
 
@@ -425,7 +424,7 @@ min-width: 10%;
         margin-top: 60px;
     }
     .aside-contact-me{
-        margin-top: 300px;
+        margin-top: 525px;
     }
     #my-work {
         justify-content:center;
@@ -460,6 +459,9 @@ min-width: 10%;
         margin-left: 1px;
         max-width: 44%;
     }
+    .ul{
+        display: none;
+    }
 }
     
 @media screen and (max-width:576px) {
@@ -484,6 +486,7 @@ min-width: 10%;
     .my-miniproject{
         max-height: 300px;
     }
+}
 
 @media screen and (max-width: 556px) {
     .aside-about-me{
@@ -491,7 +494,7 @@ min-width: 10%;
         justify-content: center;
     }
     .aside-contact-me{
-        margin: top 450px;
+        margin: top 750px;
         justify-content: center;
     }
 }
@@ -519,7 +522,7 @@ min-width: 10%;
 }
 @media screen and (max-width:530px){
     .aside-contact-me{
-        margin-top:450px;
+        margin-top:650px;
     }
     
 }
@@ -527,7 +530,7 @@ min-width: 10%;
 @media screen and (max-width: 391px) {
     .aside-contact-me{
         max-width: 100%;
-        margin-top: 525px;
+        margin-top: 625px;
         justify-content: left;
         /* flex-wrap: wrap; */
         /* font-size: 7px; */
