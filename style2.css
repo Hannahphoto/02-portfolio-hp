@@ -273,7 +273,7 @@ min-width: 10%;
     color: red;
 }
 
-@media screen and (max-width:1776px) {
+@media screen and (max-width:1600px) {
     .h2{
         display: none;
     }   
@@ -407,6 +407,13 @@ min-width: 10%;
     }
 }
 
+/* @media screen and (max-width:950px) { */
+    /* .aside-contact-me{ */
+        /* margin-top: 500px; */
+    /* } */
+/*      */
+/* } */
+
 @media screen and (max-width:784px) {
     .section {
         justify-content: center;
@@ -415,7 +422,7 @@ min-width: 10%;
         font-size: small;
     }
     .aside-my-work{
-        margin-top: 75px;
+        margin-top: 60px;
     }
     .aside-contact-me{
         margin-top: 300px;
@@ -460,18 +467,28 @@ min-width: 10%;
         justify-content: flex-end;
         flex-direction: column;
     }
-    nav {
-        display: none;
     }
     #about-me {
         font-size: smaller; 
         }
+    ul{
+        display: none;
     }
     div {
     justify-content: center;
     }
     h4{
         max-width: 100%;
+    }
+    .aside-contact-me{
+        margin-top: 425px;
+        font-size: 20px;
+    }
+    #my-work{
+        max-height: 300px;
+    }
+    .my-miniproject{
+        max-height: 300px;
     }
 
 @media screen and (max-width: 556px) {
@@ -480,7 +497,7 @@ min-width: 10%;
         justify-content: center;
     }
     .aside-contact-me{
-        margin: top 400px;
+        margin: top 350px;
         justify-content: center;
     }
 }
@@ -503,15 +520,24 @@ min-width: 10%;
         justify-content: center;
         font-size: 10px;
         text-align: left;
-        margin-top: 525px;
+        margin-top: 625px;
     }
 }
-@media screen and (max-width 391px) {
+@media screen and (max-width:530px){
+    .aside-contact-me{
+        margin-top:450px;
+    }
+    
+}
+
+@media screen and (max-width: 391px) {
     .aside-contact-me{
         max-width: 100%;
-        margin-top: 825px;
-        justify-content: center;
-        flex-wrap: wrap;
+        margin-top: 525px;
+        justify-content: left;
+        /* flex-wrap: wrap; */
+        /* font-size: 7px; */
+        margin-left: 0px;
     }
     
 }
