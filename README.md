@@ -24,6 +24,8 @@ THEN I am presented with a responsive layout that adapts to my viewport.
 (my apologies it is not 1 image)
 
 **Links**
+https://hannahphoto.github.io/02-portfolio-hp/
 
+https://github.com/Hannahphoto/02-portfolio-hp
 
 
