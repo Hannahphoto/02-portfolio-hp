@@ -105,7 +105,7 @@ h2 {
 
 .aside-contact-me {
     float: left;
-    margin-top: 400px;
+    margin-top: 700px;
     height: 50px;
     padding-right: 10px;
     border-right: 5px solid black;
@@ -138,51 +138,77 @@ section{
     justify-content: flex-end;
     align-items: end;
     margin-top: 3%;
-    height: 500px;
+    height: 600px;
     min-height: auto;
     margin-bottom: 30px;
     border: 7px solid black;
     width: 95%;
-    /* min-width: 100px; */
     margin-left: 7px;
     background-image: url("images/cheatsheet.png"); 
     object-fit: contain;
-    /* background-repeat: no-repeat; */
     background-position: middle right;
     font-size: 30px;
     color: aqua;
-    text-align: right;
+    text-align: left;
     min-width: 300px;
 }
+#my-work:hover{
+    border: 9px solid yellow;   
+}
 
-h4{
+h4, h4 > a{
+    display: block;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.my-miniproject:hover{
+    border: 9px solid yellow;
+}
+
+h4 span{
  background-color: black;
  color: aqua;
  border: 1px solid black;
- width: 30%;
- text-align: right;/
+ width: 40%;
+ display: block;
+ position: absolute;
+ bottom: 20px;
+ left: 0px;
 }
 
+#h4{
+background-color: black;
+ color: aqua;
+ border: 1px solid black;
+ width: 40%;
+ display: block;
+ position: relative;
+ bottom: 20px;
+ left: 0px;
+}
 
 .my-miniproject {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
-    align-items: end;
+    /* align-items: end; */
     margin-right: 0px;
     margin-left: 7px;
     margin-top: 0%;
-    height: 300px;
+    height: 490px;
     min-height: auto;
     margin-bottom: 30px;
     border: 7px solid black;
     width: 95%;
     min-width: 300px;
     background-image: url("images/refactor.png");
-    object-fit: contain;
+    /* object-fit: contain; */
     font-size: 30px;
     color: aqua;
-    text-align: right;
+    text-align: left;
+    bottom: 20px;
 }
 
 .project {
