@@ -8,17 +8,17 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: 'Alata', sans-serif;
 }
 
 nav {
     background-color: var(--main-color);
     color: #ffffff;
-    font-weight: 700;
+    font-weight: 900;
     height: 80px;
     text-indent: 20px;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 h1{
@@ -84,7 +84,7 @@ h2 {
 .aside-about-me {
     float:left;
     /* margin-top: 10px; */
-    height: 325px;
+    height: 425px;
     padding-right: 10px;
     border-right: 5px solid var(--main-color);
     font-size: 40px;
@@ -135,7 +135,7 @@ section{
     flex-wrap: wrap;
     font-size: 40px;
     margin-right: 1%;
-    margin-top: 1%;
+    margin-top: .5%;
 }
 
 #my-work{
